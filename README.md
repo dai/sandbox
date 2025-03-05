@@ -1,4 +1,4 @@
-# I build a　The MOST Sexiest feed reeder at v0.（v0で私用セクシエストリーダーを作る。）
+# I build The MOS _Sexiest_ feed reeder at v0.（v0で私用セクシエストリーダーを作る。）
 
 boltで失敗し、lovableでクラッシュ、v0で形式はできた（イマココ）
 
