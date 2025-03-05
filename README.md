@@ -1,21 +1,20 @@
-# I build a feed reeder at v0.
+# I build a　The MOST Sexiest feed reeder at v0.（v0で私用セクシエストリーダーを作る。）
 
 boltで失敗し、lovableでクラッシュ、v0で形式はできた（イマココ）
 
 localに移すべくvercelで管理、dai/sandbox と同期（Copilotで修正調整用途）。
 
-## v0には以下を提出した
+## v0には以下文言を提出した
 
 ```prompt
-
-## GitHub Activity Feed (github.com) Reader をつくりましょう。
-
+## GitHub Activity Feed (github.com) Reader をつくらまいか？
 
 Q: 以下の要件を満たすフィードリーダーを React/TypeScript で実装してください:
 
 ### 必須機能:
 
-- GitHub Private Activity Feed (dai.private.atom) の RSS/Atom フィードを取得・解析
+GitHub Private Activity Feed (dai.private.atom) の RSS/Atom フィードを取得・解析。
+
 - フィードアイテムを時系列順に表示
 - 各アイテムには最低限:
   - タイトル
@@ -26,22 +25,24 @@ Q: 以下の要件を満たすフィードリーダーを React/TypeScript で�
 
 ### UI/UX要件:
 
+リーダービューは https://github.com/kepano/defuddle を参考にする
+
 - daiがセクシーだと吐露するデザイン
 - モダンでクリーンなデザイン
 - レスポンシブ対応
 - ダークモード対応
 - 無限スクロールまたはページネーション
 - 読み込み中/エラー状態の適切な表示
+- フィルタリング(アクション種別、リポジトリ等、時系列)
 
 ### セキュリティ要件:
 
 - トークンは最新プレビュー版の "Fine-grained Personal Access Token" を用いる（取得方法も記す）
 - トークン認証の適切な実装
-- センシティブ情報の安全な取り扱い
+- センシティブ情報の安全な取り扱い（保存しません。など）
 
-追加があると望ましい機能:
+#### 追加であると望ましい機能:
 
-- フィルタリング(アクション種別、リポジトリ等、時系列)
 - 検索機能
 - 既読管理
 - 更新通知
